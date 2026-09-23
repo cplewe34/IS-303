@@ -37,8 +37,8 @@ def play_game():
 
 
 #Play again Function
-play_again = ("yes")
-while play_again == "yes":
+play_again = ("y")
+while play_again == "y":
     play_game()
-    play_again = input("Do you want to play again? (yes/no): ").lower()
+    play_again = input("Do you want to play again? (y/n): ").lower()
  
